@@ -1,5 +1,4 @@
-import React, { useEffect, useState, type JSX } from 'react'
-import Style from './TableSection.module.css'
+import  { type JSX } from 'react'
 import { MoreHorizontal, TrendingDown, TrendingUp } from 'lucide-react';
 import type { recentOrdersData, topProductsData } from '../types/app';
 

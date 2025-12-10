@@ -1,5 +1,4 @@
-import React, { useEffect, useState, type JSX} from 'react'
-import Style from './StatsGrid.module.css'
+import  { type JSX} from 'react'
 import { ArrowDownRight, ArrowUpRight, DollarSign, Eye, ShoppingCart, Users } from 'lucide-react'
 import type { StatItem } from '../types/app'
 

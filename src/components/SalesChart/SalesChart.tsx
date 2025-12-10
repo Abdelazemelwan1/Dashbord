@@ -1,5 +1,4 @@
-import React, { useEffect, useState, type JSX } from 'react'
-import Style from './SalesChart.module.css'
+import  { type JSX } from 'react'
 import type { SalesChartData } from '../types/app'
 import {PieChart , Pie , Cell , ResponsiveContainer , Tooltip} from "recharts"
 

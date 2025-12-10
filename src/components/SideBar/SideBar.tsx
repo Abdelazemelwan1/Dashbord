@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import Style from './SideBar.module.css'
+import  {  useState } from 'react'
 import {LayoutDashboard, BarChart3, Users, ShoppingBag, Package, CreditCard, MessageSquare, Calendar, FileText, Settings, Zap, ChevronDown } from 'lucide-react'
 import type { MenuItem, SideBarProps } from '../types/app'
 
@@ -76,7 +75,7 @@ const menuItems: MenuItem[] = [
     },
 ]
 
-export default function SideBar({collapsed , onToggle , currentPage , onPageChange}: SideBarProps) {
+export default function SideBar({collapsed  , currentPage , onPageChange}: SideBarProps) {
     const [expandedItems , SetExpandedItems] = useState(new Set(["analytics"]));
     const toggleExpended = (itemid:string)=>{
         const newExpanded = new Set(expandedItems);
