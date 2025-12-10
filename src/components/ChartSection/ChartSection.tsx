@@ -1,0 +1,20 @@
+import React, { useEffect, useState } from 'react'
+import Style from './ChartSection.module.css'
+import RevnueChart from '../RevnueChart/RevnueChart'
+import SalesChart from '../SalesChart/SalesChart'
+
+export default function ChartSection() {
+
+    return (
+        <>
+            <div className='grid grid-cols-1 xl:grid-cols-3 gap-6'>
+                <div className='xl:col-span-2'>
+                    <RevnueChart />
+                </div>
+                <div className='space-y-6'>
+                    <SalesChart />
+                </div>
+            </div>
+        </>
+    )
+}
