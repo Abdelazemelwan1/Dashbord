@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react'
 import type { SideBarProps2 } from '../types/app'
-import Style from './Header.module.css'
 import { Bell, ChevronDown, CloudSunRain, Filter, Menu, Plus, Search, Settings, Sun } from 'lucide-react'
 
-export default function Header({sidebarCollapsed , onToggleSidebar}:SideBarProps2) {
+export default function Header({ onToggleSidebar}:SideBarProps2) {
     const [isDarkMode , setIsDarkMode] = useState<boolean>(localStorage.getItem("theme") === "dark")
 
 

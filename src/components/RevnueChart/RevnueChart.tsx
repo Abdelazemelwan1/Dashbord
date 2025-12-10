@@ -1,5 +1,4 @@
-import React, { useEffect, useState, type JSX } from 'react'
-import Style from './RevnueChart.module.css' ;
+import  { type JSX } from 'react'
 import { BarChart , Bar , XAxis , YAxis , CartesianGrid , ResponsiveContainer , Tooltip} from "recharts"
 import type { RevenueData } from '../types/app';
 

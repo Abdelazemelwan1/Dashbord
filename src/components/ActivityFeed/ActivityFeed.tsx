@@ -1,5 +1,4 @@
-import React, { useEffect, useState, type JSX } from 'react'
-import Style from './ActivityFeed.module.css'
+import  { type JSX } from 'react'
 import { Bell, Clock, CreditCard, Settings, ShoppingCart, User } from 'lucide-react';
 import type { activitiesData } from '../types/app';
 

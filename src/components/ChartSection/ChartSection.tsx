@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react'
-import Style from './ChartSection.module.css'
 import RevnueChart from '../RevnueChart/RevnueChart'
 import SalesChart from '../SalesChart/SalesChart'
 

@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react'
-import Style from './Dashboard.module.css'
 import StatsGrid from '../StatsGrid/StatsGrid'
 import ChartSection from '../ChartSection/ChartSection'
 import TableSection from '../TableSection/TableSection'
